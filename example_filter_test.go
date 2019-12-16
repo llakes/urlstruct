@@ -62,7 +62,7 @@ func ExampleUnmarshal_filter() {
 
 	fmt.Println("author", filter.AuthorID)
 	fmt.Println("limit", filter.GetLimit())
-	fmt.Println("offset", filter.GetLimit())
+	fmt.Println("offset", filter.GetOffset())
 	// Output: author 123
 	// limit 100
 	// offset 100
